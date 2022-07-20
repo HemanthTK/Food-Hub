@@ -502,8 +502,18 @@ section{
   justify-content: center;
   height:100%;
   width:100%;
+  font-size: 8rem;
+  background:url(../images/home-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  
 }
-
+.loader-container i{
+ color: var(--yel);
+}
+.loader-container >a{
+  color: #333;
+}
 .loader-container.fade-out{
   top:-120%;
 }
