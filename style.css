@@ -77,7 +77,8 @@ header .navbar a:hover{
   gap:1.5rem;
   min-height: 100vh;
   align-items: center;
-  background:url(../images/home-bg.jpg) no-repeat;
+  background:url(images/home-bg.jpg) ;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -495,7 +496,6 @@ section{
 .loader-container{
   position: fixed;
   top:0; left:0;
-  z-index: 10000;
   background:#fff;
   display: flex;
   align-items: center;
@@ -503,9 +503,11 @@ section{
   height:100%;
   width:100%;
   font-size: 8rem;
-  background:url(../images/home-bg.jpg) no-repeat;
+  background:url(images/home-bg.jpg) ;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  z-index: 10000;
   
 }
 .loader-container i{
